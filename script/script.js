@@ -5,8 +5,8 @@ for (var names = 0; names < person.length; names++){
     var workersName = person[names];
     
     if (workersName.substr(0,1).toUpperCase() === 'J') {
-        console.log("Goodbye " + workersName);
+        document.write("Goodbye " + workersName + "<br>");
     } else {
-        console.log("Hello " + workersName);
+        document.write("Hello " + workersName + "<br>");
     }
 }
